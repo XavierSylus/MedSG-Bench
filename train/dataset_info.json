@@ -1,0 +1,66 @@
+{
+  "MedSG_Registered_Diff": {
+    "file_name": "/your/path/to/Registered_Diff.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "MedSG_Non_Registered_Diff": {
+    "file_name" : "/your/path/to/Non_Registered_Diff.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "MedSG_multi_view":{
+    "file_name": "/your/path/to/multi_view.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "MedSG_tracking": {
+    "file_name": "/your/path/to/object_tracking.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "MedSG_concept": {
+    "file_name": "/your/path/to/concept.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "MedSG_patch": {
+    "file_name": "/your/path/to/patch.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "MedSG_referring": {
+    "file_name": "/your/path/to/referring.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "MedSG_crossmodal": {
+    "file_name": "/your/path/to/cross_modal.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  }
+}
