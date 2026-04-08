@@ -53,7 +53,7 @@ This evaluation pipeline strictly adheres to the data preprocessing and promptin
     python batch_pipeline.py
     python calculate_iou.py
     
-📚 References
+## 📚 References
 Yue, J., et al. "MedSG-Bench: A Benchmark for Medical Image Sequences Grounding." NeurIPS, 2025.
 
 Qwen Team. "Qwen2.5-VL Technical Report." arXiv, 2025.
