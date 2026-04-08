@@ -1,0 +1,18 @@
+# 1. 拦截海量数据集与大模型权重 (绝对红线)
+BraTS2020/
+qwen_weights/
+MICCAI_BraTS2020_TrainingData/
+
+# 2. 拦截中途生成的切片与临时医学文件
+*.nii
+*.nii.gz
+temp_*.jpg
+
+# 3. 拦截 Python 运行缓存
+__pycache__/
+*.py[cod]
+
+# 4. 忽略所有常规图片，但【显式放行】你的展示对比图
+*.jpg
+*.png
+!comparison_001.jpg

@@ -1,0 +1,52 @@
+[
+    {
+        "patient_id": "BraTS20_Training_001",
+        "slice_z_index": 67,
+        "qwen_prediction": "```json\n[\n\t{\"bbox_2d\": [70, 34, 259, 268], \"label\": \"brain tumor (abnormal hyperintense lesion)\"}\n]\n```"
+    },
+    {
+        "patient_id": "BraTS20_Training_002",
+        "slice_z_index": 53,
+        "qwen_prediction": "```json\n[\n\t{\"bbox_2d\": [75, 34, 260, 281], \"label\": \"brain tumor (abnormal hyperintense lesion)\"}\n]\n```"
+    },
+    {
+        "patient_id": "BraTS20_Training_003",
+        "slice_z_index": 94,
+        "qwen_prediction": "```json\n[\n\t{\"bbox_2d\": [80, 53, 256, 267], \"label\": \"brain tumor (abnormal hyperintense lesion)\"}\n]\n```"
+    },
+    {
+        "patient_id": "BraTS20_Training_004",
+        "slice_z_index": 86,
+        "qwen_prediction": "```json\n[\n\t{\"bbox_2d\": [184, 70, 253, 169], \"label\": \"brain tumor (abnormal hyperintense lesion)\"}\n]\n```"
+    },
+    {
+        "patient_id": "BraTS20_Training_005",
+        "slice_z_index": 95,
+        "qwen_prediction": "```json\n[\n\t{\"bbox_2d\": [76, 50, 258, 271], \"label\": \"brain tumor (abnormal hyperintense lesion)\"}\n]\n```"
+    },
+    {
+        "patient_id": "BraTS20_Training_006",
+        "slice_z_index": 91,
+        "qwen_prediction": "```json\n[\n\t{\"bbox_2d\": [79, 46, 253, 278], \"label\": \"brain tumor (abnormal hyperintense lesion)\"}\n]\n```"
+    },
+    {
+        "patient_id": "BraTS20_Training_007",
+        "slice_z_index": 61,
+        "qwen_prediction": "```json\n[\n\t{\"bbox_2d\": [70, 38, 265, 257], \"label\": \"brain tumor (abnormal hyperintense lesion)\"}\n]\n```"
+    },
+    {
+        "patient_id": "BraTS20_Training_008",
+        "slice_z_index": 42,
+        "qwen_prediction": "```json\n[\n\t{\"bbox_2d\": [71, 36, 262, 240], \"label\": \"brain tumor (abnormal hyperintense lesion)\"}\n]\n```"
+    },
+    {
+        "patient_id": "BraTS20_Training_009",
+        "slice_z_index": 66,
+        "qwen_prediction": "```json\n[\n\t{\"bbox_2d\": [76, 31, 258, 259], \"label\": \"brain tumor (abnormal hyperintense lesion)\"}\n]\n```"
+    },
+    {
+        "patient_id": "BraTS20_Training_010",
+        "slice_z_index": 88,
+        "qwen_prediction": "```json\n[\n\t{\"bbox_2d\": [87, 125, 139, 196], \"label\": \"brain tumor (abnormal hyperintense lesion)\"}\n]\n```"
+    }
+]
