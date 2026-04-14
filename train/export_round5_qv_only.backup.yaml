@@ -1,0 +1,10 @@
+### model
+model_name_or_path: /root/autodl-tmp/qwen_weights
+adapter_name_or_path: /root/autodl-tmp/MedSG-Bench/train/output_round5_qv_only
+template: qwen2_vl
+finetuning_type: lora
+### export
+export_dir: /root/autodl-tmp/qwen_weights_round5_qv_only
+export_size: 2
+export_device: cpu
+export_legacy_format: false

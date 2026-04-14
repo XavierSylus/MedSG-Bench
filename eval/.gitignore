@@ -1,0 +1,18 @@
+# Model Weights
+/qwen_weights/
+*.safetensors
+*.bin
+
+# Datasets
+/MedSG_Data/
+*.zip
+
+# Python & Cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Large Logs/Temp
+*.log
+!logs/task8_eval_console.log

@@ -8,14 +8,14 @@
     }
   },
   "MedSG_Non_Registered_Diff": {
-    "file_name" : "/your/path/to/Non_Registered_Diff.json",
+    "file_name": "/your/path/to/Non_Registered_Diff.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
       "images": "images"
     }
   },
-  "MedSG_multi_view":{
+  "MedSG_multi_view": {
     "file_name": "/your/path/to/multi_view.json",
     "formatting": "sharegpt",
     "columns": {
@@ -57,6 +57,46 @@
   },
   "MedSG_crossmodal": {
     "file_name": "/your/path/to/cross_modal.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "Task8_mini": {
+    "file_name": "/root/autodl-tmp/MedSG-Bench/train/Task8_mini.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "Task8_500": {
+    "file_name": "/root/autodl-tmp/MedSG-Bench/train/Task8_500.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "Task8_round2": {
+    "file_name": "/root/autodl-tmp/MedSG-Bench/train/Task8_round2_100.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "Task8_round3": {
+    "file_name": "/root/autodl-tmp/MedSG-Bench/train/Task8_round3_100.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "Task8_round4_pure": {
+    "file_name": "/root/autodl-tmp/MedSG-Bench/train/Task8_round4_pure_bbox_100.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",

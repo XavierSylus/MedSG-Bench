@@ -1,0 +1,20 @@
+# Models, Weights & Checkpoints
+qwen_weights*/
+output_round*/
+*.safetensors
+*.bin
+*.pt
+
+# Datasets and Evaluation Results
+MedSG_Data/
+Task8_eval_result_*.json
+Task8_eval_result_*/
+
+# Python & Environment
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# 允许提交小型的训练配置数据集 (如100条的json)，如果不想提交也可以取消注释下面这行
+# train/*.json

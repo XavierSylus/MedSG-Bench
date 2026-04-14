@@ -1,0 +1,3502 @@
+[
+  {
+    "id": "referring/AbdomenCT1K/CT_RightKidney/npy_imgs/casenum_00798_sliceid_13_CT_RightKidney",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_00798_sliceid_13_CT_RightKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_050_sliceid_278_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_08107_sliceid_4_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(92,150)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(136,225)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(213,142)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_001_sliceid_268_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_001_sliceid_268_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00344_sliceid_67_CT_Spleen.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_07709_sliceid_2_MRI_LeftVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(115,88)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(73,107)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(144,157)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Liver/npy_imgs/casenum_00464_sliceid_75_CT_Liver",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00464_sliceid_75_CT_Liver.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_017_sliceid_264_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_09201_sliceid_3_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(74,125)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(134,94)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(157,130)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_034_sliceid_239_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_034_sliceid_239_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_04911_sliceid_3_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00229_sliceid_520_CT_LeftKidney.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(90,151)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(140,129)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(151,69)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_LeftVentricle/npy_imgs/casenum_06014_sliceid_1_MRI_LeftVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_06014_sliceid_1_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_034_sliceid_252_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00088_sliceid_385_CT_Spleen.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(100,144)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(31,116)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(154,83)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_05612_sliceid_1_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_05612_sliceid_1_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_00775_sliceid_58_CT_RightKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_022_sliceid_285_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(161,67)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(207,117)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(100,130)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_MitralValve/npy_imgs/casenum_07801_sliceid_0_MRI_MitralValve",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_07801_sliceid_0_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_032_sliceid_264_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00079_sliceid_423_CT_Spleen.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(162,90)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(84,132)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(81,146)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_045_sliceid_236_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_045_sliceid_236_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_01027_sliceid_115_CT_Liver.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_08801_sliceid_11_MRI_LeftVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(144,88)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(52,130)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(134,112)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_046_sliceid_290_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_046_sliceid_290_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_05801_sliceid_3_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00814_sliceid_376_CT_LeftKidney.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(130,94)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(90,145)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(107,170)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_MitralValve/npy_imgs/casenum_07412_sliceid_4_MRI_MitralValve",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_07412_sliceid_4_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00683_sliceid_144_CT_Liver.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_045_sliceid_221_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(210,102)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(142,92)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(145,138)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_LeftVentricle/npy_imgs/casenum_04301_sliceid_0_MRI_LeftVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_04301_sliceid_0_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00523_sliceid_37_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_002_sliceid_250_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(116,136)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(170,175)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(153,121)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_LeftVentricle/npy_imgs/casenum_07412_sliceid_6_MRI_LeftVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_07412_sliceid_6_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_022_sliceid_266_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00655_sliceid_64_CT_Pancreas.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(158,79)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(161,150)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(90,149)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_042_sliceid_268_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_042_sliceid_268_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00142_sliceid_18_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_05111_sliceid_1_MRI_MitralValve.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(70,107)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(134,147)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(128,162)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_MitralValve/npy_imgs/casenum_05901_sliceid_1_MRI_MitralValve",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_05901_sliceid_1_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00077_sliceid_401_CT_Spleen.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_001_sliceid_265_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(113,88)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(134,133)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(24,111)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_LeftVentricle/npy_imgs/casenum_00212_sliceid_0_MRI_LeftVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_00212_sliceid_0_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00229_sliceid_698_CT_Spleen.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_022_sliceid_280_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(159,67)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(84,155)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(116,155)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_01101_sliceid_3_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_01101_sliceid_3_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00365_sliceid_4_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_040_sliceid_250_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(88,150)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(132,92)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(65,113)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Pancreas/npy_imgs/casenum_00929_sliceid_119_CT_Pancreas",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00929_sliceid_119_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_042_sliceid_260_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_09301_sliceid_2_MRI_LeftVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(151,145)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(140,180)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(128,162)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_002_sliceid_248_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_002_sliceid_248_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00467_sliceid_320_CT_Liver.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_08410_sliceid_0_MRI_LeftVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(153,121)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(115,90)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(146,130)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Liver/npy_imgs/casenum_00231_sliceid_402_CT_Liver",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00231_sliceid_402_CT_Liver.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_017_sliceid_253_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_08501_sliceid_12_MRI_MitralValve.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(176,159)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(208,104)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(132,96)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_002_sliceid_241_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_002_sliceid_241_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_00262_sliceid_356_CT_RightKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_07801_sliceid_2_MRI_LeftVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(226,142)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(100,134)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(151,112)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_07501_sliceid_6_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_07501_sliceid_6_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_043_sliceid_247_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00789_sliceid_106_CT_Pancreas.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(128,203)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(182,210)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(81,157)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_LeftVentricle/npy_imgs/casenum_06501_sliceid_5_MRI_LeftVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_06501_sliceid_5_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_001_sliceid_252_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00265_sliceid_519_CT_LeftKidney.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(94,124)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(115,88)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(137,115)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Pancreas/npy_imgs/casenum_00030_sliceid_67_CT_Pancreas",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00030_sliceid_67_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_08901_sliceid_2_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_229_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(121,204)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(189,186)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(149,132)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Spleen/npy_imgs/casenum_00910_sliceid_128_CT_Spleen",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00910_sliceid_128_CT_Spleen.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_01901_sliceid_3_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_261_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(133,222)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(239,123)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(117,140)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_06401_sliceid_2_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_06401_sliceid_2_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_236_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00533_sliceid_134_CT_Liver.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(79,158)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(116,204)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(128,84)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_07109_sliceid_2_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_07109_sliceid_2_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_00453_sliceid_400_CT_RightKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_001_sliceid_257_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(113,88)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(74,104)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(182,100)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_02912_sliceid_4_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_02912_sliceid_4_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_01019_sliceid_204_CT_RightKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_046_sliceid_277_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(235,191)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(128,82)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(86,188)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Pancreas/npy_imgs/casenum_00909_sliceid_203_CT_Pancreas",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00909_sliceid_203_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_036_sliceid_239_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_07901_sliceid_2_MRI_MitralValve.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(92,175)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(144,157)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(153,201)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Pancreas/npy_imgs/casenum_00269_sliceid_413_CT_Pancreas",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00269_sliceid_413_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_048_sliceid_228_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_02501_sliceid_2_MRI_MitralValve.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(124,230)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(71,151)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(121,115)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_01314_sliceid_0_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_01314_sliceid_0_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00279_sliceid_414_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_046_sliceid_283_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(155,175)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(128,82)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(99,129)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Spleen/npy_imgs/casenum_00614_sliceid_41_CT_Spleen",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00614_sliceid_41_CT_Spleen.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_06014_sliceid_5_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_001_sliceid_254_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(50,144)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(86,138)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(113,88)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_017_sliceid_239_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_017_sliceid_239_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00690_sliceid_56_CT_Liver.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_00212_sliceid_4_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(134,96)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(111,167)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(251,81)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Pancreas/npy_imgs/casenum_00692_sliceid_132_CT_Pancreas",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00692_sliceid_132_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_034_sliceid_237_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_06412_sliceid_1_MRI_LeftVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(133,184)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(84,174)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(153,69)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_006_sliceid_237_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_237_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00334_sliceid_45_CT_Spleen.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_09901_sliceid_8_MRI_MitralValve.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(48,113)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(116,204)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(125,147)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_08901_sliceid_2_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_08901_sliceid_2_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00231_sliceid_419_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_019_sliceid_262_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(100,142)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(117,126)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(94,180)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_046_sliceid_267_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_046_sliceid_267_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_06812_sliceid_4_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_01049_sliceid_160_CT_Spleen.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(256,137)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(129,99)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(163,132)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_LeftKidney/npy_imgs/casenum_00909_sliceid_232_CT_LeftKidney",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00909_sliceid_232_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_048_sliceid_231_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_04701_sliceid_1_MRI_MitralValve.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(159,111)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(123,230)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(105,120)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_036_sliceid_244_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_036_sliceid_244_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00899_sliceid_184_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_01001_sliceid_4_MRI_MitralValve.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(136,133)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(142,163)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(153,141)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_032_sliceid_260_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_032_sliceid_260_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00432_sliceid_60_CT_Spleen.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_03212_sliceid_6_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(52,111)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(132,175)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(161,92)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_04101_sliceid_4_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_04101_sliceid_4_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_01032_sliceid_118_CT_RightKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_048_sliceid_237_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(197,100)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(129,230)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(112,159)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_MitralValve/npy_imgs/casenum_04513_sliceid_2_MRI_MitralValve",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_04513_sliceid_2_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_031_sliceid_247_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00883_sliceid_119_CT_LeftKidney.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(96,129)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(81,120)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(129,96)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_MitralValve/npy_imgs/casenum_02201_sliceid_4_MRI_MitralValve",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_02201_sliceid_4_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00897_sliceid_158_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_036_sliceid_246_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(87,147)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(134,137)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(142,163)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_MitralValve/npy_imgs/casenum_07506_sliceid_10_MRI_MitralValve",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_07506_sliceid_10_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00405_sliceid_607_CT_Spleen.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_031_sliceid_249_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(133,96)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(108,146)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(88,107)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_LeftKidney/npy_imgs/casenum_00473_sliceid_129_CT_LeftKidney",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00473_sliceid_129_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_042_sliceid_275_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_09407_sliceid_1_MRI_MitralValve.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(94,82)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(130,162)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(155,149)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_006_sliceid_262_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_262_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_01701_sliceid_0_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_00840_sliceid_12_CT_RightKidney.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(133,222)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(150,142)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(220,138)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_032_sliceid_256_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_032_sliceid_256_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_04610_sliceid_4_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00497_sliceid_79_CT_Spleen.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(49,116)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(159,92)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(104,62)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Pancreas/npy_imgs/casenum_00430_sliceid_67_CT_Pancreas",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00430_sliceid_67_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_014_sliceid_268_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_09901_sliceid_5_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(75,149)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(116,124)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(123,217)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Pancreas/npy_imgs/casenum_00007_sliceid_28_CT_Pancreas",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00007_sliceid_28_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_048_sliceid_235_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_05312_sliceid_3_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(123,230)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(170,170)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(102,136)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_006_sliceid_228_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_228_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00558_sliceid_486_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_08207_sliceid_4_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(121,204)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(109,73)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(71,142)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_002_sliceid_240_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_002_sliceid_240_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00067_sliceid_328_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_08401_sliceid_3_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(151,112)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(117,104)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(99,112)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_006_sliceid_223_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_223_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_03401_sliceid_4_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00267_sliceid_180_CT_Liver.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(125,204)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(61,98)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(130,144)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_LeftKidney/npy_imgs/casenum_00229_sliceid_532_CT_LeftKidney",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00229_sliceid_532_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_03612_sliceid_6_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_045_sliceid_239_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(145,88)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(133,153)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(95,151)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_07801_sliceid_2_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_07801_sliceid_2_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00304_sliceid_337_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_254_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(78,166)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(121,216)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(54,136)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_044_sliceid_278_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_044_sliceid_278_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_04301_sliceid_2_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00954_sliceid_207_CT_Pancreas.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(126,230)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(100,184)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(119,136)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_006_sliceid_265_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_265_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_08201_sliceid_9_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00183_sliceid_45_CT_Pancreas.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(137,109)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(133,222)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(102,161)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Spleen/npy_imgs/casenum_00075_sliceid_305_CT_Spleen",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00075_sliceid_305_CT_Spleen.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_02201_sliceid_1_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_045_sliceid_241_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(146,88)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(123,120)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(36,78)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_019_sliceid_271_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_019_sliceid_271_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_00401_sliceid_7_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_00620_sliceid_56_CT_RightKidney.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(98,180)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(197,126)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(149,87)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_LeftVentricle/npy_imgs/casenum_09004_sliceid_0_MRI_LeftVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_09004_sliceid_0_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_240_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00886_sliceid_38_CT_Liver.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(115,204)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(145,150)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(134,124)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_014_sliceid_276_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_014_sliceid_276_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_08509_sliceid_9_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00942_sliceid_555_CT_Pancreas.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(116,140)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(134,217)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(113,157)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Liver/npy_imgs/casenum_00864_sliceid_77_CT_Liver",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00864_sliceid_77_CT_Liver.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_042_sliceid_257_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_09701_sliceid_3_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(128,168)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(111,162)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(175,121)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Pancreas/npy_imgs/casenum_00304_sliceid_286_CT_Pancreas",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00304_sliceid_286_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_043_sliceid_242_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_07101_sliceid_6_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(95,129)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(132,203)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(167,192)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_017_sliceid_241_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_017_sliceid_241_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_04801_sliceid_3_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00531_sliceid_71_CT_Pancreas.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(134,96)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(124,142)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(98,130)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Pancreas/npy_imgs/casenum_00514_sliceid_80_CT_Pancreas",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00514_sliceid_80_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_06710_sliceid_3_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_031_sliceid_234_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(129,170)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(124,96)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(150,128)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_LeftVentricle/npy_imgs/casenum_02912_sliceid_4_MRI_LeftVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_02912_sliceid_4_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_022_sliceid_268_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00075_sliceid_283_CT_LeftKidney.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(132,183)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(158,79)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(84,103)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_LeftKidney/npy_imgs/casenum_00564_sliceid_381_CT_LeftKidney",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00564_sliceid_381_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_019_sliceid_266_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_08901_sliceid_0_MRI_MitralValve.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(149,129)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(95,180)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(87,119)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_LeftVentricle/npy_imgs/casenum_10013_sliceid_5_MRI_LeftVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_10013_sliceid_5_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_234_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00151_sliceid_26_CT_Pancreas.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(159,184)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(117,204)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(151,157)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_036_sliceid_227_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_036_sliceid_227_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_05209_sliceid_2_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00869_sliceid_49_CT_Pancreas.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(138,163)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(102,145)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(107,155)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_00112_sliceid_6_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_00112_sliceid_6_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_045_sliceid_213_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_00270_sliceid_278_CT_RightKidney.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(216,124)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(112,174)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(144,88)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_044_sliceid_272_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_044_sliceid_272_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00301_sliceid_561_CT_Spleen.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_05510_sliceid_3_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(54,82)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(126,230)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(120,102)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_036_sliceid_249_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_036_sliceid_249_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_09101_sliceid_3_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00814_sliceid_415_CT_Pancreas.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(170,176)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(107,124)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(145,163)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_MitralValve/npy_imgs/casenum_03712_sliceid_1_MRI_MitralValve",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_03712_sliceid_1_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_045_sliceid_216_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00277_sliceid_37_CT_Liver.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(258,145)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(140,88)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(141,147)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_046_sliceid_292_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_046_sliceid_292_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_00897_sliceid_186_CT_RightKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_08501_sliceid_9_MRI_MitralValve.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(212,161)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(161,153)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(130,94)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_046_sliceid_263_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_046_sliceid_263_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_03801_sliceid_4_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00535_sliceid_52_CT_Pancreas.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(96,96)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(132,103)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(154,170)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_006_sliceid_221_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_221_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00931_sliceid_643_CT_Liver.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_01101_sliceid_0_MRI_MitralValve.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(245,121)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(95,115)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(128,204)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_03901_sliceid_2_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_03901_sliceid_2_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00308_sliceid_49_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_017_sliceid_266_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(78,134)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(77,157)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(134,94)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_08207_sliceid_7_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_08207_sliceid_7_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_022_sliceid_271_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00312_sliceid_34_CT_LeftKidney.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(78,123)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(159,71)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(109,82)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_017_sliceid_256_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_017_sliceid_256_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_08201_sliceid_6_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_01053_sliceid_104_CT_Spleen.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(96,73)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(209,95)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(132,94)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Pancreas/npy_imgs/casenum_00314_sliceid_35_CT_Pancreas",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00314_sliceid_35_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_042_sliceid_252_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_02601_sliceid_6_MRI_LeftVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(132,158)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(128,192)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(175,184)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_001_sliceid_248_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_001_sliceid_248_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00746_sliceid_85_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_01401_sliceid_3_MRI_MitralValve.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(90,155)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(117,99)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(115,88)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_LeftKidney/npy_imgs/casenum_00942_sliceid_450_CT_LeftKidney",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00942_sliceid_450_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_00415_sliceid_6_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_022_sliceid_291_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(166,87)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(145,86)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(79,99)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_09101_sliceid_5_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_09101_sliceid_5_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_013_sliceid_268_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00544_sliceid_456_CT_Spleen.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(120,137)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(78,121)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(142,91)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Liver/npy_imgs/casenum_00564_sliceid_357_CT_Liver",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00564_sliceid_357_CT_Liver.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_09206_sliceid_5_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_036_sliceid_233_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(167,149)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(137,157)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(128,140)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_045_sliceid_222_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_045_sliceid_222_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_00913_sliceid_2_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_01059_sliceid_206_CT_RightKidney.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(213,113)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(124,157)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(144,92)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_MitralValve/npy_imgs/casenum_00112_sliceid_6_MRI_MitralValve",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_00112_sliceid_6_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_00823_sliceid_41_CT_RightKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_036_sliceid_251_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(119,140)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(209,137)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(147,163)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_002_sliceid_246_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_002_sliceid_246_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_05909_sliceid_3_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_00338_sliceid_49_CT_RightKidney.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(204,115)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(153,115)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(128,121)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Pancreas/npy_imgs/casenum_00712_sliceid_494_CT_Pancreas",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00712_sliceid_494_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_034_sliceid_240_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_02601_sliceid_1_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(69,128)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(151,69)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(77,154)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_006_sliceid_218_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_218_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_01401_sliceid_0_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00272_sliceid_444_CT_Pancreas.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(113,102)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(117,167)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(130,204)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_006_sliceid_224_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_006_sliceid_224_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00120_sliceid_30_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_06601_sliceid_3_MRI_MitralValve.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(120,134)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(124,204)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(100,136)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_00401_sliceid_2_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_00401_sliceid_2_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00271_sliceid_514_CT_Liver.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_043_sliceid_262_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(188,119)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(109,92)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(141,203)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_LeftVentricle/npy_imgs/casenum_04101_sliceid_3_MRI_LeftVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_04101_sliceid_3_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_RightKidney_npy_imgs_casenum_00123_sliceid_40_CT_RightKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_019_sliceid_278_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(104,180)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(191,107)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(136,150)"
+      }
+    ]
+  },
+  {
+    "id": "referring/ACDC/MRI_RightVentricle/npy_imgs/casenum_03001_sliceid_2_MRI_RightVentricle",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_03001_sliceid_2_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00203_sliceid_143_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_013_sliceid_280_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(115,75)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(102,144)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(144,95)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_LeftKidney/npy_imgs/casenum_00543_sliceid_675_CT_LeftKidney",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00543_sliceid_675_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_042_sliceid_270_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_08107_sliceid_9_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(63,162)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(128,162)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(87,108)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_017_sliceid_259_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_017_sliceid_259_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Spleen_npy_imgs_casenum_00543_sliceid_783_CT_Spleen.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_01911_sliceid_4_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Spleen<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(75,112)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(92,155)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(133,94)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_022_sliceid_275_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_022_sliceid_275_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00401_sliceid_266_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_04101_sliceid_2_MRI_LeftVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(83,137)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(159,67)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(133,146)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Pancreas/npy_imgs/casenum_00986_sliceid_48_CT_Pancreas",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00986_sliceid_48_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_03511_sliceid_4_MRI_LeftVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_042_sliceid_286_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(132,180)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(141,155)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(159,180)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_046_sliceid_265_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_046_sliceid_265_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00562_sliceid_407_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_06611_sliceid_4_MRI_RightVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(129,103)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(142,200)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(87,144)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_LeftKidney/npy_imgs/casenum_00343_sliceid_49_CT_LeftKidney",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00343_sliceid_49_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_047_sliceid_242_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_07101_sliceid_0_MRI_LeftVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(100,116)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(125,129)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(145,86)"
+      }
+    ]
+  },
+  {
+    "id": "referring/4C2021/CT_PharynxCancer/npy_imgs/casenum_001_sliceid_267_CT_PharynxCancer",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_001_sliceid_267_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_MitralValve_npy_imgs_casenum_04201_sliceid_7_MRI_MitralValve.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Liver_npy_imgs_casenum_00922_sliceid_70_CT_Liver.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>MitralValve<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(132,125)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(115,88)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>Liver<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(58,137)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_LeftKidney/npy_imgs/casenum_00545_sliceid_400_CT_LeftKidney",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_LeftKidney_npy_imgs_casenum_00545_sliceid_400_CT_LeftKidney.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_042_sliceid_248_CT_PharynxCancer.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_LeftVentricle_npy_imgs_casenum_07109_sliceid_1_MRI_LeftVentricle.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>LeftVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(123,130)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>LeftKidney<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(62,145)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(129,192)"
+      }
+    ]
+  },
+  {
+    "id": "referring/AbdomenCT1K/CT_Pancreas/npy_imgs/casenum_00766_sliceid_31_CT_Pancreas",
+    "task": "referring",
+    "images": [
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/AbdomenCT1K_CT_Pancreas_npy_imgs_casenum_00766_sliceid_31_CT_Pancreas.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/ACDC_MRI_RightVentricle_npy_imgs_casenum_01801_sliceid_0_MRI_RightVentricle.png",
+      "/root/autodl-tmp/MedSG_Data/MedSG-Train/Task8/4C2021_CT_PharynxCancer_npy_imgs_casenum_040_sliceid_249_CT_PharynxCancer.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\nIdentify the bounding box of the region described by the following expression: <|object_ref_start|>Pancreas<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(171,180)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>PharynxCancer<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(132,92)"
+      },
+      {
+        "from": "human",
+        "value": "Identify the bounding box of the region described by the following expression: <|object_ref_start|>RightVentricle<|object_ref_end|>."
+      },
+      {
+        "from": "gpt",
+        "value": "(95,150)"
+      }
+    ]
+  }
+]
